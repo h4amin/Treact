@@ -50,11 +50,12 @@ a {
 }
 
 .login__links{
-    margin-top: 24px;
     display: flex;
     cursor: pointer;
 }
 .login__links--signup{
+    margin-left: 30px;
+    padding: 12px 36px;
     width:120px;
     height:45px;
     background-color:navy;

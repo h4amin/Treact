@@ -74,26 +74,98 @@ a {
 
 
 /* MAIN */
+.main{
+    display: flex;
+
+}
 
 img {
     max-width: 100%;
 }
 
 #main{
-    margin-top: 100px;
-    margin-left: 50px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 75px;
 }
+
 .main__description {
     width: 40%;
 }
-
-.main__description--heading{
-    font-size: 2.875rem;
-    font-weight: 700;
-    line-height: 1.25;
+.main__img{
+    width: 60%;
 }
 
+.main__description--heading{
+    margin-top: 1.5rem;
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.main__description--para{
+    margin-top: 1.5rem;
+    margin-bottom: 1.75rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.TwoColumnInput{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28rem;
+    text-align: center;
+    
+}
+.TwoColumnInput input {
+    width: 90%;
+    border-radius: 9999px;
+    border-width: 1px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+.TwoColumnInput button {
+    right: 0px;
+    top: 2px;
+    bottom: 0px;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    margin-right: 0.4rem;
+    margin-left: -10.2rem;
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+
+.TRUSTED__CUSTOMERS {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start; 
+    /* justify-content: flex-start; */
+}
 .TRUSTED__CUSTOMERS p {
+    margin-bottom: 20px;
     font-size: 0.875rem;
     font-weight: 700;
     text-transform: uppercase;

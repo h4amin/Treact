@@ -43,7 +43,7 @@ a {
 }
 
 .links{
-    margin-left: 275px;
+    margin-left: 275px;   
     display:flex;
     cursor:pointer;
     font-weight: 400;
@@ -55,10 +55,10 @@ a {
 }
 .login__links--signup{
     margin-left: 30px;
-    padding: 12px 36px;
+    padding: 12px 32px;
     width:120px;
     height:45px;
-    background-color:navy;
+    background-color:rgb(100,21,255);
     border-radius: 50px;
     color:white;
 }
@@ -70,4 +70,34 @@ a {
 
 .navy__blue{
     color: rgb(43,7,115);
+}
+
+
+/* MAIN */
+
+img {
+    max-width: 100%;
+}
+
+#main{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.main__description {
+    width: 40%;
+}
+
+.main__description--heading{
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.TRUSTED__CUSTOMERS p {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+    color: rgb(160 174 192 / var(--tw-text-opacity));
 }

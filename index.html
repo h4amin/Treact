@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    <!--CSS SLIDE IN ANIMATIONS -->
+    <title>Treact</title>
 </head>
 <body>
-    <div class="section">
+    <div data-aos="slide-right" class="section">
         <div class="row">
             <div class="nav">
                 <div class="logo">
@@ -34,6 +35,27 @@
             </div>
         </div>
     </div>
+    <div data-aos="slide-right" id="main" class="section">
+        <div class="row">
+            <div class="main">
+                <div class="main__description">
+                    <h1 class="main__description--heading">Beautiful React Templates <span class="purple"> for you.</span></h1>
+                    <p class="main__description--para"><span class="navy__blue"> Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</span></p>
+                    <div class="TwoColumnInput">
+                        <input type="text" placeholder="Your E-mail Address">
+                        <button>Get Started</button>
+                    </div>
+                    <div class="TRUSTED__CUSTOMERS">
+                        <p>OUR TRUSTED CUSTOMERS<p>
+                        <img src="./assets/trusted_customers.png">
+                    </div>
+                </div>
+                <div class="main__img">
+                    <img src="assets/main react img.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="main" class="section">
         <div class="row">
             <div class="main">
@@ -55,6 +77,78 @@
             </div>
         </div>
     </div>
+
+    <div class="section__features">
+        <div class="row">
+            <div class="features__main">
+                <h4 class="features__heading"><span class="navy__blue">FEATURES</span></h4>
+                <h1 class="features__main-header"><span class="purple">We have Amazing</span> <span class="navy__blue">Service.</span></h1>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="summary__list">
+                <div class="feature__box">
+                    <span class="icon__container">
+                        <img src="./assets/shield-icon.svg" alt="">
+                    </span>
+                    <span class="text__container">
+                        <h1 class="summary__list--heading">Secure</h1>
+                        <p>We strictly only deal with vendors that provide top notch security</p>
+                    </span>
+                </div>
+                <div class="feature__box">
+                    <span class="icon__container">
+                        <img src="assets/support-icon.svg" alt="">
+                    </span>
+                    <span class="text__container">
+                        <h1 class="summary__list--heading">24/7 Support</h1>
+                        <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </span>
+                </div>
+                <div class="feature__box">
+                    <span class="icon__container">
+                        <img src="assets/customize-icon.svg" alt="">
+                    </span>
+                    <span class="text__container">
+                        <h1 class="summary__list--heading">Customizable</h1>
+                        <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </span>
+                </div>
+                <div class="feature__box">
+                    <span class="icon__container">
+                        <img src="assets/reliable-icon.svg" alt="">
+                    </span>
+                    <span class="text__container">
+                        <h1 class="summary__list--heading">Reliable</h1>
+                        <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </span>
+                </div>
+                <div class="feature__box">
+                    <span class="icon__container">
+                        <img src="assets/fast-icon.svg" alt="">
+                    </span>
+                    <span class="text__container">
+                        <h1 class="summary__list--heading">Fast</h1>
+                        <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </span>
+                </div>
+                <div class="feature__box">
+                    <span class="icon__container">
+                        <img src="assets/easy-icon.svg" alt="">
+                    </span>
+                    <span class="text__container">
+                        <h1 class="summary__list--heading">Easy</h1>
+                        <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </span>
+                </div>
+        
+            </div>
+        </div>
+    </div>
     
+    <!-- SLIDE IN ANIMATIONS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

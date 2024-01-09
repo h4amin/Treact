@@ -7,12 +7,17 @@
 
 }
 
+body {
+    margin-bottom: 10rem;
+}
+
 li {
     list-style-type: none;
 }
 
 a {
     margin-left: 50px;
+
 }
 .row{
     width: 100%;
@@ -249,4 +254,118 @@ img {
 .text__container p{
     color:rgb(71, 71, 71);
     line-height: 2rem;
+}
+
+/* QUALITY WORK SECTION */
+
+.quality__heading {
+    letter-spacing: 0.15rem;
+    margin: 1.25rem 0;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+
+}
+
+.quality__main--header{
+    font-weight: 900;
+    line-height: 1.25;
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+}
+
+.quality__work{
+    display: flex;
+    margin: 12rem 0;
+}
+
+.quality__work--left {
+    width: 50%;
+    padding: 0px 40px;
+
+}
+.quality__work--right{
+    width: 50%;
+}
+
+.quality__lorem{
+    color:rgb(71, 71, 71);
+    line-height: 1.75rem;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.learn__more--button{
+    margin-left: 0;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 12px 32px;
+    width:120px;
+    height:45px;
+    background-color:rgb(100,21,255);
+    border-radius: 50px;
+    color:white;
+}
+
+/* GET STARTED */
+
+.get__started{
+    display: flex;
+    margin: 12rem 0;
+}
+.get_started--right{
+    width: 50%;
+}
+.get_started--left{
+    margin-top: 25px;
+    padding: 25px;
+    width: 50%;
+}
+.main__header{
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.how__to--step{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.header__caps{
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(100 21 255 / var(--tw-text-opacity));
+    margin-bottom: 20px
+}
+
+.left__how_to h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgb(203 213 224 / var(--tw-text-opacity));
+}
+
+
+
+.right__how_to p {
+    margin-top: 0.5rem;
+    max-width: 20rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2;
+    --tw-text-opacity: 1;
+    color: rgb(113 128 150 / var(--tw-text-opacity));;
+}
+
+.right__how_to h6{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color:rgb(8, 24, 48);
+}
+
+.right__how_to{
+    margin-left: 1rem;
 }
